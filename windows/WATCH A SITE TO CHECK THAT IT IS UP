@@ -1,0 +1,4 @@
+Powershell
+while ($true -eq $true) {curl DOMAIN_NAME.COM | findstr "RawContent Date"; sleep 5}
+
+tags CMDLINE DOMAIN MONITOR POWERSHELL STATUS WEBSITE
