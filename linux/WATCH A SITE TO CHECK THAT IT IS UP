@@ -1,0 +1,3 @@
+watch -n 1 curl -I http://DOMAIN_NAME.COM/
+
+tags: CMDLINE CURL DOMAIN MONITOR STATUS WEBSITE
