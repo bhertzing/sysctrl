@@ -1,0 +1,2 @@
+Did I ever show you this approach in bash of using $(some commands for some such result) to be the target of another command?
+ll $(find /var -name lock.inc)
