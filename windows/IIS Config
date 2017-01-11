@@ -1,0 +1,10 @@
+	PS C:\> Import-Module WebAdministration
+	PS C:\> Set-Location IIS:\
+	PS IIS:\> cd sites
+	PS IIS:\sites> ls
+
+	Name             ID   State      Physical Path                  Bindings
+	----             --   -----      -------------                  --------
+	FTP              1    Started    D:\Websites                    ftp *:21:
+	domainname.com   2    Started    D:\Websites\domainname.com     https *:443: sslFlags=0
+                                                                http *:80:
